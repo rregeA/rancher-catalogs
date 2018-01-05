@@ -1,7 +1,8 @@
-name: Nessus 
-description: Nessus Catalog for deploying Nessus Scanner on an environment managed by Security Center
-vesrion: 1.0.0
+name: Nessus
+description: |
+  Nessus Scanner
+version: "0.1.0"
 category: Vulnerability Scanning
 maintainer: Rigert Alekaj
 license: TP EMEA
-projectUrl: https://github.com/rregeA/rancherCatalogs/templates/nessus
+projectURL: https://github.com/rregeA/rancher-catalog

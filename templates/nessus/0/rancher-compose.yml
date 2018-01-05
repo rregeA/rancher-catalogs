@@ -1,8 +1,15 @@
-.catalog:
-  name: Nessus
+version: '2'
+catalog:
+  name: "Nessus"
+  version: "0.1.0"
+  description: "Nessus Scanner"
   questions:
-    - variable: port
+    - variables: port
       label: Port to be exposed on host
       description: Enter port to be exposed from the host(default will be 8834)
       default: 8834
       type: int
+services:
+  scanner:
+    scale: 1
+    start_on_create: true
