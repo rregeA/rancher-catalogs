@@ -1,6 +1,4 @@
-version: '2'
-services:
-  scanner:
+ scanner:
     image: deffmsecdeploy01.emea.tpg.ads:5000/tenable/nessus:1.0.2
     stdin_open: true
     volumes:
