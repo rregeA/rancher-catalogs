@@ -9,7 +9,7 @@ services:
     - nessus_var:/opt/nessus/var
     tty: true
     ports:
-    - 8834:8834/tcp
+    - ${port}:8834/tcp
     command:
     - /opt/nessus/sbin/nessusd
     labels:
