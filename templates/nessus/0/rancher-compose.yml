@@ -1,5 +1,4 @@
-version: '2'
-catalog:
+.catalog:
   name: Nessus
   questions:
     - variable: port
@@ -7,7 +6,3 @@ catalog:
       description: Enter port to be exposed from the host(default will be 8834)
       default: 8834
       type: int
-services:
-  scanner:
-    scale: 1
-    start_on_create: true
